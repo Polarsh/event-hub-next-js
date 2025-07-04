@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# EventHub
 
-## Getting Started
+EventHub es una plataforma en desarrollo para la gestión y exploración de eventos. Está diseñada para que diferentes tipos de usuarios (administradores, organizadores y asistentes) puedan interactuar eficientemente, facilitando la creación y participación en eventos.
 
-First, run the development server:
+## 🚀 Estado del proyecto
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Actualmente, este proyecto está en **fase de desarrollo**. Se están implementando las funcionalidades principales y diseñando la interfaz de usuario.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📋 Características planeadas
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### **Roles de usuario**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **Administrador**:
+   - Gestión de usuarios (crear, editar, deshabilitar).
+   - Visualización de métricas generales, como número de eventos creados y asistencia.
 
-## Learn More
+2. **Organizador de eventos**:
+   - Crear y editar eventos con detalles como nombre, descripción, ubicación (integrado con Google Maps), y capacidad.
+   - Compartir eventos mediante enlaces públicos.
+   - Consultar la lista de asistentes a sus eventos.
 
-To learn more about Next.js, take a look at the following resources:
+3. **Asistente**:
+   - Buscar y explorar eventos por nombre, categoría o ubicación.
+   - Unirse a la lista de asistentes de un evento.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### **Otras características planeadas**
+- **Búsqueda avanzada de eventos**: Filtrado por nombre, categoría y ubicación.
+- **Integración con Google Maps**: Visualización de ubicaciones de eventos.
+- **Sistema de roles**: Acceso diferenciado a funcionalidades según el tipo de usuario.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 💻 Tecnologías utilizadas
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Framework:** Next.js (React Framework).
+- **Estilo:** Tailwind CSS para un diseño moderno y responsivo.
+- **Linter y formato:** ESLint (Standard) y Prettier.
+- **APIs externas:** Google Maps API para la visualización de ubicaciones.
