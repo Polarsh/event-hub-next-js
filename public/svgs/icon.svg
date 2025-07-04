@@ -1,0 +1,12 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="50" fill="#FFD803" />
+  <circle cx="5" cy="5" r="5" transform="matrix(1 0 0 -1 75 83)" fill="#272343" />
+  <circle cx="5" cy="5" r="5" transform="matrix(1 0 0 -1 82 70)" fill="#272343" />
+  <circle cx="90" cy="50" r="5" fill="#272343" />
+  <circle cx="87" cy="35" r="5" fill="#272343" />
+  <circle cx="80" cy="22" r="5" fill="#272343" />
+  <path d="M42.4688 51.9688H23.4688V68.0938H45.625V73H17.6875V27.5H45.3438V32.4375H23.4688V47.0625H42.4688V51.9688Z"
+    fill="#272343" />
+  <path d="M72.4766 73H68.375V57.2266H54.3828V73H50.3047V38.875H54.3828V53.5469H68.375V38.875H72.4766V73Z"
+    fill="#272343" />
+</svg>
