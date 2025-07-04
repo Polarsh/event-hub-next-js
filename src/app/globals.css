@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  /* 🎨 Custom Colors */
+  --color-background: #16161a;
+  --color-background-light: #242629;
+  --color-text: #94a1b2;
+  --color-title: #fffffe;
+  --color-primary: #7f5af0;
+
+  /* 🔤 Custom Font Sizes */
+  --text-h1: 33.18px;
+  --text-h2: 27.65px;
+  --text-h3: 23.04px;
+  --text-link: 18px;
+  --text-intro: 19.2px;
+  --text-body: 16px;
+  --text-small: 13.33px;
+
+  /* 🔤 Font Weights */
+  --font-weight-bold: 700;
+  --font-weight-normal: 400;
+  --font-weight-semibold: 700;
+
+  /* 📏 Line height */
+  --line-height: 1.2;
+}
+
+/* 🔧 Aplicación de estilos base con @apply o uso directo de variables */
+@layer base {
+  body {
+    background-color: var(--color-background);
+    color: var(--color-text);
+    font-family: system-ui, sans-serif;
+  }
+}
+
+@layer utilities {
+  .text-h1 {
+    font-size: var(--font-h1);
+    line-height: var(--line-height);
+    font-weight: var(--font-weight-bold);
+  }
+
+  .text-h2 {
+    font-size: var(--font-h2);
+    line-height: var(--line-height);
+    font-weight: var(--font-weight-bold);
+  }
+
+  .text-h3 {
+    font-size: var(--font-h3);
+    line-height: var(--line-height);
+    font-weight: var(--font-weight-bold);
+  }
+
+  .text-link {
+    font-size: var(--font-link);
+    line-height: var(--line-height);
+    font-weight: var(--font-weight-semibold);
+  }
+
+  .text-intro {
+    font-size: var(--font-intro);
+    line-height: var(--line-height);
+    font-weight: var(--font-weight-normal);
+  }
+
+  .text-body {
+    font-size: var(--font-body);
+    line-height: var(--line-height);
+    font-weight: var(--font-weight-normal);
+  }
+
+  .text-small {
+    font-size: var(--font-small);
+    line-height: var(--line-height);
+    font-weight: var(--font-weight-normal);
+  }
+
+  .bg-primary {
+    background-color: var(--color-primary);
+  }
+
+  .text-title {
+    color: var(--color-title);
+  }
+
+  .bg-dark {
+    background-color: var(--color-background);
+  }
+
+  .bg-light {
+    background-color: var(--color-background-light);
+  }
+
+  .text-muted {
+    color: var(--color-text);
+  }
+}
